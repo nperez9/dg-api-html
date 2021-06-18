@@ -1,0 +1,14 @@
+.item-pelicula {
+  max-width: 250px;
+  display: inline-block;
+}
+
+.item-pelicula span {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.item-pelicula img {
+  width: 250px;
+}
