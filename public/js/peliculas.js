@@ -8,6 +8,7 @@ function dibujarPeliculas(peliculas) {
         <img src="${element.cover}" alt="${element.title}" width="250" />
         <span> ${element.title} </span>
         <span> ${element.score} </span>
+        <a href='./detalle?id=${element.id}'> Ver detalle </a>
       </article>    `
   });
 
